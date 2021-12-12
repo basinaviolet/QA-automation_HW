@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="Group of tests of triangle definition" >
+        <groups>
+            <run>
+                <include name="group3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Assertions"/>
+        </classes>
+    </test>
+</suite>
